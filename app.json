@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Nomad",
+    "slug": "nomad",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/nomad.png",
+    "splash": {
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain",
+      "image": "./assets/nomad.png"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "jsEngine": "jsc",
+      "package": "com.nomad.app",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/nomad.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "extra": {
+      "facebookAppId": "EXPO_PUBLIC_FACEBOOK_APP_ID",
+      "eas": {
+        "projectId": "61500954-2d44-4b56-99ef-d5db86537b97"
+      }
+    },
+    "owner": "wrld123"
+  }
+}
